@@ -6,7 +6,6 @@ export const SearchUrl = () => {
     const [resultValue, setResultValue] = React.useState("");
     const [dataSearch, setDataSearch] = React.useState([]);
 
-    // https://areajugones.sport.es/wp-content/uploads/2022/04/the-rising-of-the-shield-hero-anime.jpeg
     const makeAPICall = async (e: any) => {
         try {
             let url = { inputValue };
